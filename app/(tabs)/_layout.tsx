@@ -97,7 +97,7 @@ function TabIcon({ color, focused, icon, name }: TabIconProps) {
         source={icon}
         resizeMode="contain"
         tintColor={color}
-        className="w-6 h-6"
+        className="h-6 w-6"
       />
       <Text
         className={cn("text-xs", focused ? "font-psemibold" : "font-pregular")}
